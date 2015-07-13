@@ -1,0 +1,39 @@
+{
+  "name": "metalsmith-hover",
+  "version": "0.0.1",
+  "description": "A Metalsmith plugin to load links to images and gifs on hover.",
+  "keywords": [
+    "metalsmith",
+    "hover",
+    "image",
+    "images",
+    "gif",
+    "gifs"
+  ],
+  "author": "Andy Jiang <andyjiang@gmail.com>",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/lambtron/metalsmith-hover",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lambtron/metalsmith-hover"
+  },
+  "bugs": {
+    "url": "https://github.com/lambtron/metalsmith-hover/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "debug": "^2.2.0",
+    "metalsmith": "^1.7.0",
+    "metalsmith-markdown": "^0.2.1"
+  },
+  "devDependencies": {
+    "metalsmith": "^1.5.0",
+    "metalsmith-markdown": "^0.2.1",
+    "mocha": "^2.2.5"
+  }
+}
