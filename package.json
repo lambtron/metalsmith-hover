@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-hover",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Metalsmith plugin to load links to images and gifs on hover.",
   "keywords": [
     "metalsmith",
@@ -27,9 +27,7 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.19.0",
-    "debug": "^2.2.0",
-    "metalsmith": "^1.7.0",
-    "metalsmith-markdown": "^0.2.1"
+    "debug": "^2.2.0"
   },
   "devDependencies": {
     "metalsmith": "^1.5.0",
